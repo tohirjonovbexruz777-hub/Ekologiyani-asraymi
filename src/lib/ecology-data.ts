@@ -1,0 +1,25 @@
+export const lessons = [
+  { grade: 1, title: "Tabiat bilan tanishuv", icon: "🌱", color: "leaf", text: "Tabiat — bizni o‘rab turgan o‘simliklar, hayvonlar, suv, havo va tuproqdir.", task: "Bugun ko‘rgan 3 ta tirik tabiat vakilini sanang.", question: "Qaysi biri tirik tabiat?", options: ["Tosh", "Daraxt", "Stol"], answer: 1 },
+  { grade: 2, title: "Suvni asraymiz", icon: "💧", color: "sky", text: "Toza suv hayot uchun zarur. Tish yuvayotganda jo‘mrakni yopish ham katta yordam.", task: "Uyda suvni tejashning 2 yo‘lini toping.", question: "Suvni qanday tejaymiz?", options: ["Jo‘mrakni ochiq qoldirib", "Jo‘mrakni yopib", "Suvni ifloslab"], answer: 1 },
+  { grade: 3, title: "Chiqindini saralash", icon: "♻️", color: "sun", text: "Qog‘oz, plastik, shisha va oziq-ovqat qoldiqlarini alohida yig‘ish qayta ishlashni osonlashtiradi.", task: "3 xil chiqindi uchun alohida quti belgilang.", question: "Qog‘ozni qayerga tashlaymiz?", options: ["Qog‘oz qutisiga", "Ko‘chaga", "Suvga"], answer: 0 },
+  { grade: 4, title: "Daraxtlar nafasi", icon: "🌳", color: "leaf", text: "Daraxtlar havoni tozalaydi, soya beradi va ko‘plab jonivorlarga uy bo‘ladi.", task: "Bir daraxtni kuzating va undagi hayotni yozing.", question: "Daraxtlar nimani tozalaydi?", options: ["Havoni", "Plastikni", "Temirni"], answer: 0 },
+  { grade: 5, title: "Hayvonlarni muhofaza qilish", icon: "🐾", color: "coral", text: "Har bir hayvon tabiat zanjirining muhim bo‘lagi. Ularning yashash joylarini asrash kerak.", task: "Hududingizdagi bir hayvon haqida ma’lumot toping.", question: "Hayvonlarni asrash uchun nima muhim?", options: ["Uyasini buzish", "Yashash joyini asrash", "Shovqin qilish"], answer: 1 },
+  { grade: 6, title: "Toza havo", icon: "🌬️", color: "sky", text: "Transport va zavod tutuni havoni ifloslantiradi. Piyoda yurish va velosiped ekologik tanlovdir.", task: "Bir kunlik yo‘lingizning ekologik rejasini tuzing.", question: "Qaysi transport havoni kamroq ifloslaydi?", options: ["Velosiped", "Eski avtomobil", "Yuk mashinasi"], answer: 0 },
+  { grade: 7, title: "Ekotizimlar", icon: "🦋", color: "sun", text: "O‘simlik, hayvon, tuproq, suv va havo bir-biri bilan bog‘lanib ekotizimni hosil qiladi.", task: "Mahalliy oziq zanjiriga 4 ta bo‘g‘in yozing.", question: "Ekotizimda nimalar bog‘langan?", options: ["Faqat hayvonlar", "Tirik va notirik tabiat", "Faqat suv"], answer: 1 },
+  { grade: 8, title: "Iqlim o‘zgarishi", icon: "🌍", color: "coral", text: "Issiqxona gazlari Yer haroratini oshiradi. Energiyani tejash bu ta’sirni kamaytiradi.", task: "Bir haftada elektrni tejash rejasini tuzing.", question: "Iqlimni asrashga qaysi ish yordam beradi?", options: ["Chiroqni bekor yoqish", "Energiyani tejash", "Chiqindi yoqish"], answer: 1 },
+  { grade: 9, title: "Biologik xilma-xillik", icon: "🦌", color: "leaf", text: "Turlar xilma-xilligi tabiatning barqarorligini saqlaydi. Bir turning yo‘qolishi boshqalariga ham ta’sir qiladi.", task: "Muhofazadagi 3 turning yashash hududini belgilang.", question: "Biologik xilma-xillik nimani kuchaytiradi?", options: ["Tabiat barqarorligini", "Ifloslanishni", "Isrofni"], answer: 0 },
+  { grade: 10, title: "Yashil kelajak loyihasi", icon: "🔬", color: "sky", text: "Ilm, texnologiya va mas’uliyatli odatlar ekologik muammolarga yechim topishga yordam beradi.", task: "Maktab uchun o‘lchanadigan ekologik loyiha tuzing.", question: "Yaxshi ekologik loyiha qanday bo‘ladi?", options: ["O‘lchanadigan va foydali", "Rejasiz", "Faqat shiorli"], answer: 0 },
+] as const;
+
+export const endangeredAnimals = [
+  { name: "Qor barsi", latin: "Panthera uncia", icon: "🐆", habitat: "G‘arbiy Tyanshan va Pomir-Oloy", fact: "Baland tog‘larning noyob va yashirin yirtqichi." },
+  { name: "Buxoro bug‘usi", latin: "Cervus hanglu bactrianus", icon: "🦌", habitat: "Amudaryo bo‘yidagi to‘qaylar", fact: "To‘qay o‘rmonlarining saqlanishiga bog‘liq tur." },
+  { name: "Jayron", latin: "Gazella subgutturosa", icon: "🦌", habitat: "Qizilqum va Ustyurt", fact: "Cho‘l sharoitiga juda yaxshi moslashgan." },
+  { name: "Sayg‘oq", latin: "Saiga tatarica", icon: "🐐", habitat: "Ustyurt platosi", fact: "G‘ayrioddiy burni changli havoni filtrlashga yordam beradi." },
+  { name: "Qulon", latin: "Equus hemionus", icon: "🐎", habitat: "Cho‘l va yarim cho‘llar", fact: "Juda tez yuguradigan yovvoyi eshak turi." },
+  { name: "Markhor", latin: "Capra falconeri", icon: "🐐", habitat: "Hisor tog‘lari", fact: "Burama shoxlari bilan ajralib turadi." },
+  { name: "Turkiston silovsini", latin: "Lynx lynx isabellinus", icon: "🐈", habitat: "Tog‘ o‘rmonlari", fact: "Quloq uchidagi qora popuklari bilan taniladi." },
+  { name: "Yo‘rg‘a tuvaloq", latin: "Chlamydotis macqueenii", icon: "🦤", habitat: "Qizilqum cho‘li", fact: "Yerda uya quradigan noyob cho‘l qushi." },
+  { name: "Qora laylak", latin: "Ciconia nigra", icon: "🦢", habitat: "Tog‘ daryolari va o‘rmonlar", fact: "Odamdan yiroq, tinch joylarni tanlaydi." },
+  { name: "Oq boshli o‘rdak", latin: "Oxyura leucocephala", icon: "🦆", habitat: "Ko‘llar va suv-botqoq hududlar", fact: "Suzishga mos uzun, tik dumga ega." },
+] as const;
